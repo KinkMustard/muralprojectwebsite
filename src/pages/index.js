@@ -21,7 +21,7 @@ const IndexPage = () => (
         <img src={Hassan2} alt="" data-uk-cover />
         <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
           <h3 className="uk-margin-remove">hassan was raped</h3>
-          <p className="uk-margin-remove">sample text</p>
+          <p className="uk-margin-remove">other sample text</p>
         </div>
       </li>
       <li>
