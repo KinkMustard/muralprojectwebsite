@@ -7,7 +7,7 @@ import Hassan3 from "../images/riphassan.jpg";
 const IndexPage = () => (
   <div
     className="uk-position-relative uk-visible-toggle uk-light"
-    data-uk-slideshow="animation: push; autoplay: true; autoplay-interval: 3000; min-width:100% "
+    data-uk-slideshow="animation: push; autoplay: true; autoplay-interval: 3000; min-height: 400; max-height: 700"
   >
     <ul className="uk-slideshow-items">
       <li>

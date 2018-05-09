@@ -2,30 +2,39 @@ import React from "react";
 import Link from "gatsby-link";
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      marginBottom: "1.45rem"
-    }}
-  >
-    <div
-      style={{
-        margin: "0 auto",
-        maxWidth: 960,
-        padding: "1.45rem 1.0875rem"
-      }}
+  <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav
+      className="uk-navbar-container"
+      data-uk-navbar
+      style={{ position: "relative", "z-index": 980 }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: "white",
-            textDecoration: "none"
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+      <div className="uk-navbar-left">
+        <ul className="uk-navbar-nav">
+          <li className="uk-active">
+            <a href="#">Hassan</a>
+          </li>
+          <li>
+            <a href="#">Was</a>
+            <div className="uk-navbar-dropdown">
+              <ul className="uk-nav uk-navbar-dropdown-nav">
+                <li className="uk-active">
+                  <a href="#">Hassan</a>
+                </li>
+                <li>
+                  <a href="#">Was</a>
+                </li>
+                <li>
+                  <a href="#">Raped</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Raped</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
 );
 

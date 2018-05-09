@@ -34,7 +34,7 @@ class Layout extends React.Component {
             { name: "keywords", content: "sample, something" }
           ]}
         />
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
             margin: "0 auto",
