@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
       <div className="uk-navbar-left">
         <ul className="uk-navbar-nav">
           <li className="uk-active">
-            <a href="#">{siteTitle}</a>
+            <a href="#">Kite Runner Mural</a>
           </li>
           <li>
-            <a href="#">sample text</a>
+            <a href="#">About</a>
             <div className="uk-navbar-dropdown">
               <ul className="uk-nav uk-navbar-dropdown-nav">
                 <li className="uk-active">
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
             </div>
           </li>
           <li>
-            <a href="#">sample text</a>
+            <a href="#">Individual Blogs</a>
           </li>
         </ul>
       </div>
