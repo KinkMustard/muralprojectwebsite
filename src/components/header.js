@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
             <a href="#">Kite Runner Mural</a>
           </li>
           <li>
-            <Link to="About">About</Link>
+            <Link to="about">About</Link>
             <div className="uk-navbar-dropdown">
               <ul className="uk-nav uk-navbar-dropdown-nav">
                 <li className="uk-active">
