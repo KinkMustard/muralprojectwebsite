@@ -12,27 +12,26 @@ const IndexPage = () => (
     <ul className="uk-slideshow-items">
       <li>
         <img src={Hassan} alt="" data-uk-cover />
-        <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+        <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-large">
           <h3 className="uk-margin-remove">sample text</h3>
           <p className="uk-margin-remove">sample text</p>
         </div>
       </li>
       <li>
         <img src={Hassan2} alt="" data-uk-cover />
-        <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+        <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-large">
           <h3 className="uk-margin-remove">sample text</h3>
           <p className="uk-margin-remove">other sample text</p>
         </div>
       </li>
       <li>
         <img src={Hassan3} alt="" data-uk-cover />
-        <div className="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+        <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-large">
           <h3 className="uk-margin-remove">sample text</h3>
           <p className="uk-margin-remove">sample text</p>
         </div>
       </li>
     </ul>
-    <ul className="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin" />
     <a
       className="uk-position-center-left uk-position-small uk-hidden-hover"
       href="#"
@@ -45,6 +44,25 @@ const IndexPage = () => (
       data-uk-uk-slidenav-next
       data-uk-slideshow-item="next"
     />
+    <div className="uk-position-bottom-center uk-position-small">
+      <ul className="uk-thumbnav">
+        <li data-uk-slideshow-item="0">
+          <a href="#">
+            <img src={Hassan} width="100" alt="" />
+          </a>
+        </li>
+        <li data-uk-slideshow-item="1">
+          <a href="#">
+            <img src={Hassan2} width="100" alt="" />
+          </a>
+        </li>
+        <li data-uk-slideshow-item="2">
+          <a href="#">
+            <img src={Hassan3} width="100" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 

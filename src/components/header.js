@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       <div className="uk-navbar-left">
         <ul className="uk-navbar-nav">
           <li className="uk-active">
-            <a href="#">Kite Runner Mural</a>
+            <Link to="/">Kite Runner Mural</Link>
           </li>
           <li>
             <Link to="about">About</Link>
