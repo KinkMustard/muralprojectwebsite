@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import Placeholder from "../images/placeholder.jpg";
+import bookImg from "../images/book.jpg";
+import aroLogo from "../images/arologo.png";
 
 const about = () => (
   <div
@@ -10,7 +12,7 @@ const about = () => (
     <div>
       <div className="uk-card uk-card-hover uk-card-default">
         <div className="uk-card-media-top">
-          <img src={Placeholder} alt="" />
+          <img src={bookImg} alt="" />
         </div>
         <div className="uk-card-body">
           <h3 className="uk-card-title">Summary of Book</h3>
@@ -28,7 +30,7 @@ const about = () => (
     <div>
       <div className="uk-card uk-card-hover uk-card-default">
         <div className="uk-card-media-top">
-          <img src={Placeholder} alt="" />
+          <img src={aroLogo} alt="" />
         </div>
         <div className="uk-card-body">
           <h3 className="uk-card-title">Afghanistan Relief Organization</h3>
