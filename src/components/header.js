@@ -5,7 +5,7 @@ const Header = ({ siteTitle }) => (
   <div data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav
       className="uk-navbar-container"
-      data-uk-navbar
+      data-uk-navbar="mode: click"
       style={{ position: "relative", "z-index": 980 }}
     >
       <div className="uk-navbar-left">
@@ -15,22 +15,12 @@ const Header = ({ siteTitle }) => (
           </li>
           <li>
             <Link to="about">About</Link>
-            <div className="uk-navbar-dropdown">
-              <ul className="uk-nav uk-navbar-dropdown-nav">
-                <li className="uk-active">
-                  <a href="#">sample text</a>
-                </li>
-                <li>
-                  <a href="#">sample text</a>
-                </li>
-                <li>
-                  <a href="#">sample text</a>
-                </li>
-              </ul>
-            </div>
           </li>
           <li>
-            <a href="#">Individual Blogs</a>
+            <Link to="gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="blogs">Individual Blogs</Link>
           </li>
         </ul>
       </div>
