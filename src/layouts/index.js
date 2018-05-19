@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-
+import "gatsby-plugin-sass";
 import "jquery";
 import "uikit/dist/css/uikit.min.css";
 // import "uikit/dist/js/uikit.js";
@@ -9,7 +9,7 @@ import "uikit/dist/css/uikit.min.css";
 // import "uikit/dist/js/components/slideshow.min.js";
 // import "uikit/dist/js/components/slideshow-animations.min.js";
 // import "uikit/dist/js/components/slider.min.js";
-import "./index.css";
+import "./index.scss";
 import Header from "../components/header";
 
 class Layout extends React.Component {
