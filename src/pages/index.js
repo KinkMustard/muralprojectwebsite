@@ -63,7 +63,7 @@ const IndexPage = () => (
           <li>
             <img src={images[3]} alt="" data-uk-cover />
             <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
-              <h3 className="uk-margin-remove">safsafsample text</h3>
+              <h3 className="uk-margin-remove">safsfsafsaafsample text</h3>
               <p className="uk-margin-remove">sample text</p>
             </div>
           </li>
