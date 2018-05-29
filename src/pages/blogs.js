@@ -195,12 +195,12 @@ const about = () => (
         </div>
       </div>
     </div>
-  <div>
+    <div>
       <div className="uk-card uk-card-hover uk-card-default">
         <div className="uk-card-media-top uk-height-max-medium">
           <iframe
-            src="https://drive.google.com/file/d/1CLWHSuJN7t7hLmD76YuMX9JVpMU2Tulb/preview" width="640"
-            width="100%"
+            src="https://drive.google.com/file/d/1CLWHSuJN7t7hLmD76YuMX9JVpMU2Tulb/preview"
+            width="640"
             height="400px"
           />
         </div>
