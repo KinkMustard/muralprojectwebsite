@@ -12,7 +12,6 @@ const about = () => (
     data-uk-grid
     data-uk-sortable="handle: .uk-card"
     data-uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 100; repeat: true"
-    style={{ marginLeft: "35%" }}
   >
     <div>
       <div className="uk-card uk-card-hover uk-card-default">
