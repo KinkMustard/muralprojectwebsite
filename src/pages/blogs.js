@@ -195,6 +195,20 @@ const about = () => (
         </div>
       </div>
     </div>
+  <div>
+      <div className="uk-card uk-card-hover uk-card-default">
+        <div className="uk-card-media-top uk-height-max-medium">
+          <iframe
+            src="https://drive.google.com/file/d/1CLWHSuJN7t7hLmD76YuMX9JVpMU2Tulb/preview" width="640"
+            width="100%"
+            height="400px"
+          />
+        </div>
+        <div className="uk-card-body" style={{ marginTop: 80 }}>
+          <h3 className="uk-card-title">Amber Smith</h3>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
