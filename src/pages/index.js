@@ -46,8 +46,8 @@ const IndexPage = () => (
           <li>
             <img src={images[1]} alt="" data-uk-cover />
             <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
-              <h3 className="uk-margin-remove">sampdle text</h3>
-              <p className="uk-margin-remove">sample text</p>
+              <h3 className="uk-margin-remove">Art lesson!</h3>
+              <p className="uk-margin-remove">The art crew gets tips for conveying our ideas on the canvas.</p>
             </div>
           </li>
           <li>
@@ -56,14 +56,14 @@ const IndexPage = () => (
               <h3 className="uk-margin-remove">
                 Documentary crew hard at work!
               </h3>
-              <p className="uk-margin-remove">sample text</p>
+              <p className="uk-margin-remove">The documentation crew allows us to record our progress throughout our project.</p>
             </div>
           </li>
           <li>
             <img src={images[3]} alt="" data-uk-cover />
             <div className="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
-              <h3 className="uk-margin-remove">safsfsafsaafsample text</h3>
-              <p className="uk-margin-remove">sample text</p>
+              <h3 className="uk-margin-remove">Mixing colors!</h3>
+              <p className="uk-margin-remove">Using the currect colors is vital for successfully conveying our ideas and the themes we are trying to convey.</p>
             </div>
           </li>
         </ul>
