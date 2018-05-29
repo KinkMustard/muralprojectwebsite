@@ -4,7 +4,7 @@ import Placeholder from "../images/placeholder.jpg";
 import bookImg from "../images/book.jpg";
 import aroLogo from "../images/arologo.png";
 import afghanistanImg from "../images/afghanistan.jpg";
-import muralpic from "../images/processpics/muralpic.jpg";
+import muralpic from "../images/processpics/muralpic.JPG";
 
 const about = () => (
   <div
