@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 import images from "../images/imageindex";
-import timelapse from "../images/The bee movie_ but every time there say bee it speeds up [360p].mp4";
 
 const IndexPage = () => (
   <div
