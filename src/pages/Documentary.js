@@ -1,9 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
-import Placeholder from "../images/placeholder.jpg";
-import bookImg from "../images/book.jpg";
-import aroLogo from "../images/arologo.png";
-import images from "../images/imageindex";
 // import * as ImageCollection from "../images";
 
 const about = () => (
