@@ -4,7 +4,7 @@ import Placeholder from "../images/placeholder.jpg";
 import bookImg from "../images/book.jpg";
 import aroLogo from "../images/arologo.png";
 import afghanistanImg from "../images/afghanistan.jpg";
-import muralImg from "../images/processpics/muralpic.jpg";
+// import muralImg from "../images/processpics/muralpic.jpg";
 
 const about = () => (
   <div
@@ -76,7 +76,7 @@ const about = () => (
     <div>
       <div className="uk-card uk-card-hover uk-card-default">
         <div className="uk-card-media-top">
-          <img src={muralImg} alt="" className="uk-height-max-medium" />
+          <img src={Placeholder} alt="" className="uk-height-max-medium" />
         </div>
         <div className="uk-card-body">
           <h3 className="uk-card-title">About the Mural</h3>
