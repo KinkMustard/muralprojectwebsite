@@ -209,6 +209,34 @@ const about = () => (
         </div>
       </div>
     </div>
+    <div>
+      <div className="uk-card uk-card-hover uk-card-default">
+        <div className="uk-card-media-top uk-height-max-medium">
+          <iframe
+            src="https://drive.google.com/file/d/1fo2_zYpDRu1TYDZynknPYXpsD7FQDqYH/preview"
+            width="640"
+            height="400px"
+          />
+        </div>
+        <div className="uk-card-body" style={{ marginTop: 80 }}>
+          <h3 className="uk-card-title">Alise Larson</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div className="uk-card uk-card-hover uk-card-default">
+        <div className="uk-card-media-top uk-height-max-medium">
+          <iframe
+            src="https://drive.google.com/file/d/1DekQwY6tERj34mRVXg4SegTr3WSEWcAc/preview"
+            width="640"
+            height="400px"
+          />
+        </div>
+        <div className="uk-card-body" style={{ marginTop: 80 }}>
+          <h3 className="uk-card-title">Samantha Lee</h3>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
